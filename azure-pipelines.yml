@@ -24,4 +24,4 @@ steps:
   inputs:
     nexusIqService: 'IQServer'
     applicationId: 'struts2-rce'
-    stage: $(iq-stage)
+    stage: "stage-release"
