@@ -22,6 +22,6 @@ steps:
 
 - task: NexusIqPipelineTask@1
   inputs:
-    nexusIqService: 'IQServer'
+    nexusIqService: 'iq-server'
     applicationId: 'struts2-rce'
     stage: "stage-release"
